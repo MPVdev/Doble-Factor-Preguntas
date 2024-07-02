@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #737373;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"], input[type="password"] {
+  width: 150px;
+  padding: 2px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4b25c6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 160px;
+}
+button:hover {
+  background-color: #331987;
+}
+.contenedor-registro {
+  width: 650px;
+}
+.contenedor-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor-info, .contenedor-preguntas {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
